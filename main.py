@@ -1,11 +1,9 @@
 from recognition import  Ears
 from calc import Main
 from voice import voice
-import handlers
 import time
 import webbrowser
 import random
-import requests
 from tkinter import *
 
 ACTIVATION = 'привет'
