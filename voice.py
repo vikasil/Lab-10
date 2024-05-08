@@ -3,7 +3,7 @@ from playsound import playsound
 
 class Voice:
     def __init__(self):
-        model = Model(model_name="vosk-model-tts-ru-0.6-multi")
+        model = Model(model_name="vosk-model-small-ru-0.22")
         self.synth = Synth(model)
         self.speaker = 1
 
